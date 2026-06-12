@@ -10,7 +10,6 @@ export class Leads
 
     async initiateLead()
     {
-        await this.page.pause()
         await this.hamburgerButtonField.click()
         await this.marketingTabField.click()
         await this.leadsTabField.click()
